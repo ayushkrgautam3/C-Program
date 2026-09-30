@@ -1,0 +1,11 @@
+//Program to compute difference of two numbers
+#include<stdio.h>
+int main()
+{
+    int a,b,c;
+    a=30;
+    b=20;
+    c=a-b;
+    printf("Difference=%d",c);
+    return 0;
+}

@@ -1,0 +1,13 @@
+//Check given number is greater than 10
+#include <stdio.h>
+int main()
+{
+    int a;
+    printf("Enter a number:\n");
+    scanf("%d",&a);
+    if (a>10)
+    {
+        printf("Number is greater than 10.");
+    }
+    return 0;
+}

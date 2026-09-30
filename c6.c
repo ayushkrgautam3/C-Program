@@ -1,0 +1,13 @@
+//Program to calculate average of 3 numbers
+#include<stdio.h>
+int main()
+{
+    int a,b,c;
+    float avg;
+    a=150;
+    b=50;
+    c=100;
+    avg=(a+b+c)/3.0;
+    printf("Avg=%f",avg);
+    return 0;
+}
